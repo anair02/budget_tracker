@@ -1,0 +1,65 @@
+.budget-tracker {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .balance {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-forms {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .expense-input,
+  .income-input {
+    width: 45%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .expense-report {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .expense-category {
+    margin-bottom: 20px;
+  }
+  
+  .expense-category h3 {
+    margin-top: 0;
+  }
+  
+  .expense-category ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .expense-category li {
+    margin-bottom: 5px;
+  }
