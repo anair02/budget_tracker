@@ -16,7 +16,7 @@ Follow these steps to get your development environment running:
    - Open your terminal or preffered IDE.
    - Clone this repository using the command:
      ```
-     git clone https://github.com/PhongDiep2003/CS157A_Project.git
+     git clone https://github.com/anair02/budget_tracker.git
      ```
    - Navigate into the repository directory:
      ```
