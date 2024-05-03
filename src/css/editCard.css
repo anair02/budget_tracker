@@ -1,0 +1,122 @@
+.editCardContainer {
+  padding: 10px 10px 10px 50px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.editCardContainer h2 {
+  color: #5D7285;
+  font-size: 2rem;
+}
+
+.card_container {
+  flex-grow: 1;
+}
+.card_backBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  height: 100%;
+}
+.cardShape {
+  background-color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 800px;
+  box-shadow: 7px 7px 10px 3px #24004628;
+}
+.card_backBody h1 {
+  color: black;
+}
+.card_backBody div {
+  padding: 0px 40px 0px 40px;
+  height: 100%;
+  width: 100%;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+}
+.editCardFormContainer {
+  flex-grow: 1;
+}
+
+.editCardForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 88%;
+}
+
+.editCardForm div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+}
+.editCardFormContainer label {
+  color: rgb(0, 0, 0);
+  margin-bottom: 4px;
+}
+.editCardFormContainer input {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 30px;
+  font-size: 1rem;
+  color: #4a5568;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  background: white;
+  color: #31393C;
+  padding: 10px;
+}
+
+.editCardFormContainer  button {
+  font-size: 17px;
+  padding: 1em 2.7em;
+  font-weight: 500;
+  background: white;
+  color: #31393C;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.6em;
+  cursor: pointer;
+  width: 150px;
+  transition: .2s ease-in-out;
+}
+
+.editCardFormContainer  button:hover {
+  background-color: #FDCA40;
+  transform: scale(1.03);
+  
+}
+.editFlashCardButtonContainer  {
+  padding: 0px 20px 20px 0px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.editCardFormContainer input:hover {
+  box-shadow: 0 0 0 2px #33A1FD;
+}
+
+
+.editCardContentContainer {
+  height: 100%;
+  display: flex;
+}
+.card_frontBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card_frontBody h2 {
+  color: black;
+}
