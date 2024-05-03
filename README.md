@@ -20,7 +20,7 @@ Follow these steps to get your development environment running:
      ```
    - Navigate into the repository directory:
      ```
-     cd CS157A_Project
+     cd SeniorProject
      ```
 
 2. **Install Dependencies**
